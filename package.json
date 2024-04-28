@@ -1,0 +1,23 @@
+{
+  "name": "exc",
+  "version": "1.0.0",
+  "main": "model-list.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.17.0"
+  },
+  "dependencies": {
+    "three": "^0.135.0",
+    "web-ifc-viewer": "^1.0.218"
+  }
+}
