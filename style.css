@@ -198,3 +198,9 @@ a {
   background-color: var(--light-blue);
   fill: white;
 }
+
+.checkboxes {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+}
